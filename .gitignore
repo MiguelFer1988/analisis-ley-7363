@@ -26,3 +26,12 @@ build/
 Análisis de la Ley 7363 Control Transparencia y Rendición de Cuentas de las OSFL.md
 # ASCII-fallback (in case of encoding differences)
 Analisis de la Ley 7363 Control Transparencia y Rendición de Cuentas de las OSFL.md
+
+# Word conversion files and documents
+convertir_a_word.py
+*.docx
+Informe_Ley_7363_2024.docx
+
+# Disertación e informe extenso (para desarrollo)
+DISERTACION_DRA_CALLIZO.md
+Transparencia ONGs Paraguay_ Ley y Críticas copy.md
