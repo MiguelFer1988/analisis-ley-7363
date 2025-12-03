@@ -1,0 +1,161 @@
+{
+  "health": {
+    "coverage": {
+      "ips_national": 25.9,
+      "ips_rural": 16.1,
+      "out_of_pocket": 40,
+      "public_spending_gdp": 4.5,
+      "who_recommended": 6.0
+    },
+    "labels": ["Cobertura IPS Nacional", "Cobertura IPS Rural", "Gasto de Bolsillo", "Gasto Público (% PIB)", "Recomendado OMS (% PIB)"],
+    "data": [25.9, 16.1, 40, 4.5, 6.0],
+    "backgroundColors": [
+      "rgba(37, 99, 235, 0.7)",
+      "rgba(124, 58, 237, 0.7)",
+      "rgba(220, 38, 38, 0.7)",
+      "rgba(245, 158, 11, 0.7)",
+      "rgba(16, 185, 129, 0.7)"
+    ]
+  },
+  "redundancy": {
+    "areas": [
+      {
+        "area": "Identidad Jurídica",
+        "existing": "DGPEJ + Abogacía del Tesoro",
+        "new": "Registro OSFL (MEF)",
+        "result": "REDUNDANTE"
+      },
+      {
+        "area": "Beneficiarios Finales",
+        "existing": "Abogacía del Tesoro (Ley 6446/2019)",
+        "new": "Reporte al MEF",
+        "result": "DUPLICACIÓN"
+      },
+      {
+        "area": "Prevención Lavado",
+        "existing": "SEPRELAD (Res. 490/22)",
+        "new": "Control MEF universal",
+        "result": "CONFLICTO"
+      },
+      {
+        "area": "Tributario/Fiscal",
+        "existing": "DNIT (RUC, IVA, IRE)",
+        "new": "Balances al MEF",
+        "result": "DOBLE CONTABILIDAD"
+      },
+      {
+        "area": "Facturación",
+        "existing": "SIFEN (migración gradual)",
+        "new": "SIFEN obligatorio 90 días",
+        "result": "PLAZO LEONINO"
+      }
+    ]
+  },
+  "constitutional_violations": [
+    {
+      "article": "Art. 42 CN",
+      "right": "Libertad de Asociación",
+      "violations": [
+        "Registro = Autorización previa de facto",
+        "Alineación forzosa al Plan Nacional de Desarrollo"
+      ],
+      "effect": "El Estado dicta qué es 'útil' o 'permitido'"
+    },
+    {
+      "article": "Art. 33 CN",
+      "right": "Privacidad e Intimidad",
+      "violations": [
+        "Revelación forzosa de donantes",
+        "Exposición a represalias y persecución"
+      ],
+      "effect": "Corte Interamericana condena estas prácticas"
+    },
+    {
+      "article": "Art. 26 CN",
+      "right": "Libertad de Expresión",
+      "violations": [
+        "Censura indirecta vía control administrativo",
+        "Auditoría punitiva tras críticas al gobierno"
+      ],
+      "effect": "Silenciamiento de voces disidentes"
+    },
+    {
+      "article": "Art. 9 CN",
+      "right": "Legalidad y Taxatividad",
+      "violations": [
+        "Conceptos jurídicos indeterminados",
+        "Discrecionalidad excesiva"
+      ],
+      "effect": "Inseguridad jurídica"
+    }
+  ],
+  "sanctions": {
+    "levels": [
+      {
+        "level": 1,
+        "name": "Apercibimiento Escrito",
+        "description": "Por incumplimientos formales",
+        "severity": "low"
+      },
+      {
+        "level": 2,
+        "name": "Suspensión 3-6 Meses",
+        "description": "Actividades OSFL",
+        "severity": "medium"
+      },
+      {
+        "level": 3,
+        "name": "Inhabilitación 5 Años",
+        "description": "Directivos, cargo público",
+        "severity": "high"
+      }
+    ],
+    "response_deadline_days": 15,
+    "max_inhabilitacion_years": 5
+  },
+  "ngos": {
+    "health": [
+      {
+        "name": "CEPEP & Kuña Róga",
+        "area": "Salud sexual y reproductiva",
+        "impact": "Miles de mujeres atendidas anualmente"
+      },
+      {
+        "name": "Fundación Vencer",
+        "area": "VIH/SIDA",
+        "impact": "Soporte integral y gestión de medicamentos"
+      }
+    ],
+    "education": [
+      {
+        "name": "Fe y Alegría - Pa'i Puku",
+        "area": "Educación Chaco",
+        "impact": "Única opción educativa en cientos de kilómetros"
+      }
+    ],
+    "indigenous_rights": [
+      {
+        "name": "Mingará, Tierraviva, PNUMA",
+        "area": "Crisis hídrica",
+        "impact": "Instalación de aljibes y sistemas de agua"
+      },
+      {
+        "name": "Codehupy",
+        "area": "Litigio estratégico",
+        "impact": "Casos Yakye Axa, Sawhoyamaxa ante Corte Interamericana"
+      }
+    ]
+  },
+  "state_failures": {
+    "hambre_cero_debt_usd": 240000000,
+    "water_crisis_chaco": true,
+    "indi_land_titling": "inoperante"
+  },
+  "summary": {
+    "redundancy_areas": 5,
+    "constitutional_violations": 4,
+    "response_deadline_days": 15,
+    "max_inhabilitacion_years": 5,
+    "beneficiaries_at_risk": "Miles"
+  }
+}

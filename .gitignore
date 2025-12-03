@@ -1,0 +1,28 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Editor / OS
+.vscode/
+.idea/
+*.log
+
+# Build / dist
+dist/
+build/
+
+# Ignore the large analysis document (author-provided)
+Análisis de la Ley 7363 Control Transparencia y Rendición de Cuentas de las OSFL.md
+# ASCII-fallback (in case of encoding differences)
+Analisis de la Ley 7363 Control Transparencia y Rendición de Cuentas de las OSFL.md

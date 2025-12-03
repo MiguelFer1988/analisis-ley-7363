@@ -1,0 +1,30 @@
+{
+  "name": "Ley 7363/2024: Análisis Crítico ONGs Paraguay",
+  "short_name": "Ley ONGs PY",
+  "description": "Infográfico interactivo sobre el impacto de la Ley 7363/2024 en las organizaciones sin fines de lucro en Paraguay",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "lang": "es-PY",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "research", "politics"],
+  "screenshots": [],
+  "related_applications": [],
+  "prefer_related_applications": false
+}

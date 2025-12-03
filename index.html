@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Análisis crítico de la Ley 7363/2024: Transparencia o Control? El impacto sobre las ONGs en Paraguay">
+    <meta name="author" content="Dra. Pilar Callizo">
+    <meta name="keywords" content="Ley 7363, ONGs Paraguay, transparencia, control, derechos humanos, sociedad civil">
+
+    <title>Ley 7363/2024: Un Análisis Crítico | ONGs en Paraguay</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#667eea">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content reveal">
+            <h1 class="hero-title">Ley 7363/2024: Un Análisis Crítico</h1>
+            <p class="hero-subtitle">¿Transparencia o Control? El Impacto sobre las ONGs en Paraguay</p>
+            <p class="hero-description">
+                La promulgación de la Ley N.º 7363/2024 "Que establece el control, la transparencia y la rendición de cuentas de las organizaciones sin fines de lucro" y su reglamentación mediante el Decreto N.º 4.806/2025 representan la transformación más drástica del ecosistema cívico paraguayo desde la transición democrática.
+            </p>
+        </div>
+        <div class="scroll-indicator">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Sección I: El Rol Crítico de las ONGs -->
+    <section id="rol-ongs">
+        <div class="container">
+            <h2 class="section-title reveal">Cuando el Estado Falla, la Sociedad Civil Responde</h2>
+
+            <!-- Salud Pública -->
+            <div class="subsection mt-8">
+                <h3 class="subsection-title reveal">Salud Pública</h3>
+
+                <div class="grid grid-cols-3 mt-6">
+                    <div class="stat-box reveal reveal-delay-1">
+                        <span class="stat-number counter" data-target="25.9">0</span>
+                        <span class="stat-label">% Cobertura IPS Nacional</span>
+                    </div>
+                    <div class="stat-box reveal reveal-delay-2">
+                        <span class="stat-number counter" data-target="16.1">0</span>
+                        <span class="stat-label">% Cobertura Rural</span>
+                    </div>
+                    <div class="stat-box reveal reveal-delay-3">
+                        <span class="stat-number counter" data-target="40">0</span>
+                        <span class="stat-label">% Gasto de Bolsillo</span>
+                    </div>
+                </div>
+
+                <div class="chart-container mt-6 reveal">
+                    <h4 class="chart-title">Cobertura de Salud en Paraguay</h4>
+                    <div class="chart-wrapper">
+                        <canvas id="healthChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-3 mt-6">
+                    <div class="card reveal reveal-delay-1">
+                        <div class="icon-box success">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+                            </svg>
+                        </div>
+                        <h4 class="card-title">CEPEP & Kuña Róga</h4>
+                        <p class="card-body">Salud sexual y reproductiva donde el MSPBS no llega. Miles de mujeres atendidas anualmente.</p>
+                    </div>
+                    <div class="card reveal reveal-delay-2">
+                        <div class="icon-box success">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-.23c0-.62.28-1.2.76-1.58C7.47 15.82 9.64 15 12 15s4.53.82 6.24 2.19c.48.38.76.97.76 1.58V19z"/>
+                            </svg>
+                        </div>
+                        <h4 class="card-title">Fundación Vencer</h4>
+                        <p class="card-body">Soporte integral VIH/SIDA, gestión de medicamentos cuando el sistema público falla.</p>
+                    </div>
+                    <div class="card reveal reveal-delay-3">
+                        <div class="icon-box success">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                            </svg>
+                        </div>
+                        <h4 class="card-title">Impacto Real</h4>
+                        <p class="card-body">Miles de personas atendidas, salvando vidas donde el Estado ha decidido ausentarse.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Educación -->
+            <div class="subsection mt-8">
+                <h3 class="subsection-title reveal">Educación</h3>
+
+                <div class="card mt-6 reveal">
+                    <h4 class="card-title">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24" style="display:inline; vertical-align:middle;">
+                            <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
+                        </svg>
+                        Fe y Alegría - Pa'i Puku (Chaco)
+                    </h4>
+                    <div class="card-body">
+                        <p><strong>Realidad:</strong> Internado en el Chaco, única opción educativa en cientos de kilómetros.</p>
+                        <p class="mt-2"><strong>El Estado paga:</strong> Salarios docentes</p>
+                        <p><strong>La ONG gestiona:</strong> Infraestructura, alimentación, transporte, gestión integral</p>
+                        <p class="mt-3" style="color: var(--color-success); font-weight: 600;">Sin esta ONG, cientos de niños no tendrían acceso a educación.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Derechos Indígenas -->
+            <div class="subsection mt-8">
+                <h3 class="subsection-title reveal">Derechos Indígenas</h3>
+
+                <div class="split-screen reveal">
+                    <div class="split-left">
+                        <h4 class="split-title">❌ Estado Ausente</h4>
+                        <ul style="list-style: disc; padding-left: 1.5rem;">
+                            <li>Programa Hambre Cero: 240M USD de deuda a proveedores</li>
+                            <li>Niños comiendo en el suelo por falta de comedores</li>
+                            <li>Crisis hídrica en el Chaco sin solución estatal</li>
+                            <li>INDI inoperante en titulación de tierras</li>
+                        </ul>
+                    </div>
+                    <div class="split-right">
+                        <h4 class="split-title">✅ ONGs Presentes</h4>
+                        <ul style="list-style: disc; padding-left: 1.5rem;">
+                            <li><strong>Mingará, Tierraviva, PNUMA:</strong> Instalan aljibes, sistemas de cosecha de agua</li>
+                            <li><strong>Codehupy:</strong> Litigio estratégico ante Corte Interamericana</li>
+                            <li><strong>Casos ganados:</strong> Yakye Axa, Sawhoyamaxa (restitución de tierras)</li>
+                            <li><strong>Resultado:</strong> Derechos garantizados donde el Estado falló</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección II: La Redundancia Burocrática -->
+    <section id="redundancia">
+        <div class="container">
+            <h2 class="section-title reveal">Un Laberinto de Controles Duplicados</h2>
+
+            <div class="mt-6 reveal">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Área de Control</th>
+                            <th>Ya existe (antes de Ley 7363)</th>
+                            <th>Nueva obligación (Ley 7363)</th>
+                            <th>Resultado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="reveal reveal-delay-1">
+                            <td><strong>Identidad Jurídica</strong></td>
+                            <td>DGPEJ + Abogacía del Tesoro</td>
+                            <td>Registro OSFL (MEF)</td>
+                            <td><span class="badge badge-warning">⚠️ REDUNDANTE</span></td>
+                        </tr>
+                        <tr class="reveal reveal-delay-2">
+                            <td><strong>Beneficiarios Finales</strong></td>
+                            <td>Abogacía del Tesoro (Ley 6446/2019)</td>
+                            <td>Reporte al MEF</td>
+                            <td><span class="badge badge-warning">⚠️ DUPLICACIÓN</span></td>
+                        </tr>
+                        <tr class="reveal reveal-delay-3">
+                            <td><strong>Prevención Lavado</strong></td>
+                            <td>SEPRELAD (Res. 490/22)</td>
+                            <td>Control MEF universal</td>
+                            <td><span class="badge badge-danger">⚠️ CONFLICTO</span></td>
+                        </tr>
+                        <tr class="reveal reveal-delay-4">
+                            <td><strong>Tributario/Fiscal</strong></td>
+                            <td>DNIT (RUC, IVA, IRE)</td>
+                            <td>Balances al MEF</td>
+                            <td><span class="badge badge-danger">⚠️ DOBLE CONTABILIDAD</span></td>
+                        </tr>
+                        <tr class="reveal reveal-delay-5">
+                            <td><strong>Facturación</strong></td>
+                            <td>SIFEN (migración gradual)</td>
+                            <td>SIFEN obligatorio 90 días</td>
+                            <td><span class="badge badge-danger">⚠️ PLAZO LEONINO</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <blockquote class="highlight-text reveal">
+                "No es falta de control, es exceso de burocracia"
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Sección III: Violaciones Constitucionales -->
+    <section id="constitucionalidad">
+        <div class="container">
+            <h2 class="section-title reveal">Cuando la Ley Contradice la Constitución</h2>
+
+            <div class="constitutional-cards">
+                <div class="constitutional-card reveal reveal-delay-1">
+                    <h4>⚖️ Libertad de Asociación (Art. 42 CN)</h4>
+                    <ul class="violation-list">
+                        <li>❌ <strong>Violación:</strong> Registro = Autorización previa de facto</li>
+                        <li>❌ <strong>Violación:</strong> Alineación forzosa al Plan Nacional de Desarrollo</li>
+                        <li>📜 <strong>Efecto:</strong> El Estado dicta qué es "útil" o "permitido"</li>
+                    </ul>
+                </div>
+
+                <div class="constitutional-card reveal reveal-delay-2">
+                    <h4>🛡️ Privacidad e Intimidad (Art. 33 CN)</h4>
+                    <ul class="violation-list">
+                        <li>❌ <strong>Violación:</strong> Revelación forzosa de donantes</li>
+                        <li>⚠️ <strong>Riesgo:</strong> Exposición a represalias, persecución</li>
+                        <li>🌎 <strong>Estándar internacional:</strong> Corte Interamericana condena estas prácticas (Nicaragua, Venezuela)</li>
+                    </ul>
+                </div>
+
+                <div class="constitutional-card reveal reveal-delay-3">
+                    <h4>🔇 Libertad de Expresión (Art. 26 CN)</h4>
+                    <ul class="violation-list">
+                        <li>❌ <strong>Violación:</strong> Censura indirecta vía control administrativo</li>
+                        <li>📊 <strong>Mecanismo:</strong> Auditoría punitiva tras publicar críticas al gobierno</li>
+                        <li>🚫 <strong>Efecto:</strong> Silenciamiento de voces disidentes</li>
+                    </ul>
+                </div>
+
+                <div class="constitutional-card reveal reveal-delay-4">
+                    <h4>⚖️ Legalidad y Taxatividad (Art. 9 CN)</h4>
+                    <ul class="violation-list">
+                        <li>❌ <strong>Violación:</strong> Conceptos jurídicos indeterminados</li>
+                        <li style="padding-left: 1.5rem;">"incidencia en actividad de Poderes del Estado"</li>
+                        <li style="padding-left: 1.5rem;">"utilidad pública"</li>
+                        <li>⚠️ <strong>Problema:</strong> Discrecionalidad excesiva = inseguridad jurídica</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección IV: El Régimen Sancionatorio -->
+    <section id="sanciones">
+        <div class="container">
+            <h2 class="section-title reveal">Sanciones Desproporcionadas, Efecto Paralizante</h2>
+
+            <div class="sanctions-pyramid reveal">
+                <div class="pyramid-level pyramid-level-3">
+                    <h4>🚨 INHABILITACIÓN 5 AÑOS</h4>
+                    <p>(directivos, cargo público)</p>
+                </div>
+                <div class="pyramid-level pyramid-level-2">
+                    <h4>SUSPENSIÓN 3-6 MESES</h4>
+                    <p>(actividades OSFL)</p>
+                </div>
+                <div class="pyramid-level pyramid-level-1">
+                    <h4>APERCIBIMIENTO ESCRITO</h4>
+                    <p>(por incumplimientos formales)</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 mt-8">
+                <div class="card reveal reveal-delay-1">
+                    <h4 class="card-title">⚠️ Sanciones Aplicables</h4>
+                    <ul style="list-style: disc; padding-left: 1.5rem;" class="card-body">
+                        <li>A personas físicas Y jurídicas</li>
+                        <li>Inhabilitación hasta 5 años (reincidencia)</li>
+                        <li>Plazo de respuesta: 15 días hábiles</li>
+                        <li>Alcanza a "cualquier persona con incidencia" (concepto vago)</li>
+                    </ul>
+                </div>
+                <div class="quote-block reveal reveal-delay-2" style="margin: 0;">
+                    <p class="quote-text">
+                        "Un error administrativo puede costar 5 años de inhabilitación. El miedo paraliza a la sociedad civil."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección V: Conclusión -->
+    <section id="conclusion">
+        <div class="container">
+            <h2 class="section-title reveal">La Encrucijada: Defender la Sociedad Civil es Defender los Derechos</h2>
+
+            <div class="quote-block reveal" style="background: rgba(255,255,255,0.1); border: 2px solid rgba(255,255,255,0.3);">
+                <p class="quote-text" style="font-size: var(--text-xl);">
+                    "Defender la autonomía de las ONGs no es defender privilegios corporativos; es defender el plato de comida en la escuela rural, el medicamento para el paciente oncológico y el agua para la comunidad indígena que el Estado ha decidido olvidar."
+                </p>
+            </div>
+
+            <div class="conclusion-icons">
+                <div class="conclusion-icon-item reveal reveal-delay-1">
+                    <svg fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z"/>
+                    </svg>
+                    <p>Alimentación</p>
+                </div>
+                <div class="conclusion-icon-item reveal reveal-delay-2">
+                    <svg fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 3H5c-1.1 0-1.99.9-1.99 2L3 19c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-6.99 14c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/>
+                    </svg>
+                    <p>Salud</p>
+                </div>
+                <div class="conclusion-icon-item reveal reveal-delay-3">
+                    <svg fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2c-5.33 4.55-8 8.48-8 11.8 0 4.98 3.8 8.2 8 8.2s8-3.22 8-8.2c0-3.32-2.67-7.25-8-11.8zm0 18c-3.35 0-6-2.57-6-6.2 0-2.34 1.95-5.44 6-9.14 4.05 3.7 6 6.79 6 9.14 0 3.63-2.65 6.2-6 6.2z"/>
+                    </svg>
+                    <p>Agua</p>
+                </div>
+                <div class="conclusion-icon-item reveal reveal-delay-4">
+                    <svg fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
+                    </svg>
+                    <p>Educación</p>
+                </div>
+                <div class="conclusion-icon-item reveal reveal-delay-5">
+                    <svg fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+                    </svg>
+                    <p>Justicia</p>
+                </div>
+            </div>
+
+            <div class="final-stats">
+                <div class="final-stat reveal reveal-delay-1">
+                    <span class="final-stat-number counter" data-target="5">0</span>
+                    <span class="final-stat-label">Áreas de control duplicado</span>
+                </div>
+                <div class="final-stat reveal reveal-delay-2">
+                    <span class="final-stat-number counter" data-target="4">0</span>
+                    <span class="final-stat-label">Violaciones constitucionales</span>
+                </div>
+                <div class="final-stat reveal reveal-delay-3">
+                    <span class="final-stat-number counter" data-target="15">0</span>
+                    <span class="final-stat-label">Días para responder auditorías</span>
+                </div>
+                <div class="final-stat reveal reveal-delay-4">
+                    <span class="final-stat-number counter" data-target="5">0</span>
+                    <span class="final-stat-label">Años de inhabilitación posible</span>
+                </div>
+                <div class="final-stat reveal reveal-delay-5">
+                    <span class="final-stat-number">Miles</span>
+                    <span class="final-stat-label">De beneficiarios en riesgo</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p><strong>Basado en investigación para disertación</strong></p>
+            <p>Dra. Pilar Callizo</p>
+            <p class="mt-2">Diciembre 2025</p>
+            <p class="mt-3" style="font-size: var(--text-sm);">
+                Fuentes principales: Ley 7363/2024, Decreto 4806/2025, Dictámenes jurídicos especializados
+            </p>
+            <p style="font-size: var(--text-xs); margin-top: var(--space-2); opacity: 0.7;">
+                Análisis académico con fines informativos y educativos
+            </p>
+        </div>
+    </footer>
+
+    <!-- Chart.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+    <!-- JavaScript Files -->
+    <script src="js/utils.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/scroll-animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
